@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>sohu</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是sohu</description>
+    </property>
+
+	<property>
+        <name>sohu.sourceId</name>
+        <value>36</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是>sohu</description>
+    </property>
+	
+    <property>
+        <name>sohu.crawldb</name>
+        <value>Sohu-crawler</value>
+        <description>Sohu的主目录</description>
+    </property>
+    
+    <property>
+        <name>sohu.publisher</name>
+        <value>搜狐教育</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>sohu.path.seeds</name>
+        <value>seeds/sohu/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+    <property>
+        <name>sohu.next.nextpage.selector</name>
+        <value>span.pagebox_next a</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>sohu.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>sohu.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>sohu.crawler.reg.reg1</name>
+        <value>http://learning.sohu.com/.*/n\d{9}.shtml</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>sohu.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>sohu.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+    <property>
+        <name>sohu.comment.selector</name>
+        <value>meta[name=comment]</value>
+        <description>页面评论的选择标签</description>
+    </property>
+
+</configuration>

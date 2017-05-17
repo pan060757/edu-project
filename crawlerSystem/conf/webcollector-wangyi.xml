@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>wangyi</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是wangyi</description>
+    </property>
+
+	<property>
+        <name>wangyi.sourceId</name>
+        <value>8</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是>wangyi</description>
+    </property>
+	
+    <property>
+        <name>wangyi.crawldb</name>
+        <value>Wangyi-crawler</value>
+        <description>Wangyi的主目录</description>
+    </property>
+    
+    <property>
+        <name>wangyi.publisher</name>
+        <value>网易教育</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>wangyi.path.seeds</name>
+        <value>seeds/wangyi/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+    <property>
+        <name>wangyi.next.nextpage.selector</name>
+        <value>div.pages a</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>wangyi.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>wangyi.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>wangyi.crawler.reg.reg1</name>
+        <value>http://edu.163.com/15/.*.html</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>hljedu.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>hljedu.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+
+</configuration>

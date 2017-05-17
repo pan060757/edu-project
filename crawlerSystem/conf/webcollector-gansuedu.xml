@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>gansuedu</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是gansuedu</description>
+    </property>
+
+	 <property>
+        <name>gansuedu.sourceId</name>
+        <value>4</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是gansuedu</description>
+    </property>
+	
+    <property>
+        <name>gansuedu.crawldb</name>
+        <value>GansuEdu-crawler</value>
+        <description>GansuEdu的主目录</description>
+    </property>
+    
+    <property>
+        <name>gansuedu.publisher</name>
+        <value>甘肃教育网</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>gansuedu.path.seeds</name>
+        <value>seeds/gansuedu/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+    <property>
+        <name>gansuedu.next.nextpage.selector</name>
+        <value>div#prenext a[title="下一页"]</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>gansuedu.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>gansuedu.crawler.reg.reg1</name>
+        <value>http://www.gsedu.cn/.*\d{12}.html</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>gansuedu.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>gansuedu.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+</configuration>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>gxedu</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是gxedu</description>
+    </property>
+
+	 <property>
+        <name>gxedu.sourceId</name>
+        <value>12</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是gxedu</description>
+    </property>
+	
+    <property>
+        <name>gxedu.crawldb</name>
+        <value>GxEdu-crawler</value>
+        <description>GxEdu的主目录</description>
+    </property>
+    
+    <property>
+        <name>gxedu.publisher</name>
+        <value>广西教育网</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>gxedu.path.seeds</name>
+        <value>seeds/gxedu/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+    <property>
+        <name>gxedu.next.nextpage.selector</name>
+        <value>div.ptopc a</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>gxedu.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>gxedu.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>gxedu.crawler.reg.reg1</name>
+        <value>http://edu.gxnews.com.cn/staticpages/.*.shtml</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>gxedu.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>gxedu.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+
+</configuration>

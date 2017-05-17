@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>fjedu</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是fjedu</description>
+    </property>
+
+	<property>
+        <name>fjedu.sourceId</name>
+        <value>10</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是fjedu</description>
+    </property>
+	
+    <property>
+        <name>fjedu.crawldb</name>
+        <value>FjEdu-crawler</value>
+        <description>FjEdu的主目录</description>
+    </property>
+
+
+    <property>
+        <name>fjedu.publisher</name>
+        <value>福建教育网</value>
+        <description>新闻发布平台</description>
+    </property>
+
+
+    <property>
+        <name>fjedu.path.seeds</name>
+        <value>seeds/fjedu/seed.txt</value>
+        <description>新闻发布平台</description>
+    </property>
+
+
+
+    <property>
+        <name>fjedu.next.nextpage.selector</name>
+        <value>li.nextpage a</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>fjedu.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>fjedu.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>fjedu.crawler.reg.reg1</name>
+        <value>http://www.fjedu.gov.cn/html/xxgk/.*/.*.html</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>fjedu.crawler.reg.reg2</name>
+        <value>http://www.fjedu.gov.cn/html/jyyw/.*/.*.html</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>fjedu.crawler.reg.reg3</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>fjedu.crawler.reg.reg4</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+
+</configuration>

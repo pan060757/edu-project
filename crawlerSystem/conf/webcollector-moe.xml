@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>moe</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是moe</description>
+    </property>
+	
+	<property>
+        <name>moe.sourceId</name>
+        <value>27</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是>moe</description>
+    </property>
+
+    <property>
+        <name>moe.crawldb</name>
+        <value>Moe-crawler</value>
+        <description>Moe的主目录</description>
+    </property>
+    
+    <property>
+        <name>moe.publisher</name>
+        <value>教育部</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>moe.path.seeds</name>
+        <value>seeds/moe/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+    <property>
+        <name>moe.next.nextpage.selector</name>
+        <value>div.pages a</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>moe.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>moe.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>moe.crawler.reg.reg1</name>
+        <value>http://www.moe.gov.cn/.*</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>moe.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>moe.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+</configuration>

@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Class-Path: netty-3.5.5.Final.jar webbit-0.4.15.jar xom-1.1.jar junive
+ rsalchardet-1.0.3.jar jetty-io-8.1.15.v20140411.jar lucene-sandbox-4.
+ 6.0.jar spring-beans-4.0.5.RELEASE.jar mysql-connector-java-5.1.31.ja
+ r selenium-support-2.43.0.jar nekohtml-1.9.21.jar sac-1.3.jar spring-
+ jdbc-4.0.5.RELEASE.jar junit-4.11.jar jsoup-1.8.3.jar commons-codec-1
+ .9.jar selenium-api-2.43.0.jar selenium-chrome-driver-2.43.0.jar comm
+ ons-dbcp-1.4.jar xmlParserAPIs-2.6.2.jar jdom-1.0.jar commons-io-2.4.
+ jar htmlunit-2.15.jar spring-core-4.0.5.RELEASE.jar mongo-java-driver
+ -3.2.0.jar commons-lang-2.5.jar selenium-safari-driver-2.43.0.jar sel
+ enium-remote-driver-2.43.0.jar groovy-all-1.7.5.jar commons-logging-1
+ .1.1.jar hamcrest-core-1.3.jar selenium-firefox-driver-2.43.0.jar ezm
+ orph-1.0.6.jar cglib-nodep-2.1_3.jar lucene-queryparser-4.6.0.jar jso
+ n-lib-2.4-jdk15.jar xml-apis-1.4.01.jar spring-tx-4.0.5.RELEASE.jar s
+ elenium-ie-driver-2.43.0.jar commons-beanutils-1.8.0.jar slf4j-api-1.
+ 7.9.jar httpcore-4.3.2.jar xalan-2.7.0.jar commons-lang3-3.4.jar jett
+ y-websocket-8.1.15.v20140411.jar jackson-mapper-asl-1.9.11.jar platfo
+ rm-3.4.0.jar selenium-htmlunit-driver-2.43.0.jar slf4j-log4j12-1.7.9.
+ jar dom4j-1.6.jar oro-2.0.8.jar jackson-core-asl-1.9.11.jar json-2014
+ 0107.jar jaxen-1.1-beta-8.jar lucene-queries-4.6.0.jar xercesImpl-2.6
+ .2.jar httpmime-4.3.3.jar lucene-analyzers-smartcn-4.6.0.jar jna-3.4.
+ 0.jar jakarta-regexp-1.4.jar httpclient-4.3.4.jar jetty-http-8.1.15.v
+ 20140411.jar commons-pool-1.5.4.jar lucene-analyzers-common-4.6.0.jar
+  guava-15.0.jar jetty-util-9.3.4.RC1.jar commons-collections-3.2.1.ja
+ r commons-exec-1.1.jar selenium-java-2.43.0.jar je-5.0.73.jar htmluni
+ t-core-js-2.15.jar log4j-1.2.17.jar lucene-core-4.6.0.jar cssparser-0
+ .9.14.jar
+Main-Class: edu.ecnu.crawler.Ifeng.Controller
+

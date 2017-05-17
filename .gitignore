@@ -1,0 +1,16 @@
+*.class
+/.DS_Store/*
+.idea/*
+out/*
+*/classes/*
+/edu-project/target/*
+*/target/*
+/luceneIndex/*
+/default/*
+*-crawler/*
+*.iml
+# Package Files #
+*.jar
+*.war
+*.ear
+

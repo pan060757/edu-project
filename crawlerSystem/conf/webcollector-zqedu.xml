@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property>
+        <name>crawler.suffix</name>
+        <value>zqedu</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是zqedu</description>
+    </property>
+
+	<property>
+        <name>zqedu.sourceId</name>
+        <value>5</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是>zqedu</description>
+    </property>
+	
+    <property>
+        <name>zqedu.crawldb</name>
+        <value>ZqEdu-crawler</value>
+        <description>主目录</description>
+    </property>
+
+    <property>
+        <name>zqedu.publisher</name>
+        <value>中青在线</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>zqedu.path.seeds</name>
+        <value>seeds/zqedu/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed1</name>
+        <value>http://edu.cyol.com/node_7639.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed2</name>
+        <value>http://edu.cyol.com/node_7668.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed3</name>
+        <value>http://edu.cyol.com/node_7633.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+    <property>
+        <name>zqedu.seeds.seed4</name>
+        <value>http://edu.cyol.com/node_26404.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed5</name>
+        <value> http://edu.cyol.com/node_4492.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed6</name>
+        <value> http://edu.cyol.com/node_4484.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed7</name>
+        <value>http://edu.cyol.com/node_7678.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+    <name>zqedu.seeds.seed8</name>
+    <value>http://edu.cyol.com/node_7673.htm</value>
+    <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+    <name>zqedu.seeds.seed9</name>
+    <value>http://edu.cyol.com/node_4482.htm</value>
+    <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed10</name>
+        <value> http://edu.cyol.com/node_7672.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed11</name>
+        <value> http://edu.cyol.com/node_4488.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed12</name>
+        <value>  http://edu.cyol.com/node_4486.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+    <property>
+        <name>zqedu.seeds.seed13</name>
+        <value>http://edu.cyol.com/node_4483.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed14</name>
+        <value>http://edu.cyol.com/node_4491.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed15</name>
+        <value>http://edu.cyol.com/node_4487.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed16</name>
+        <value>http://edu.cyol.com/node_4489.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed17</name>
+        <value>http://edu.cyol.com/node_7687.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed18</name>
+        <value>http://edu.cyol.com/node_4490.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+
+    <property>
+        <name>zqedu.seeds.seed19</name>
+        <value> http://edu.cyol.com/node_7670.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+    <property>
+        <name>zqedu.seeds.seed20</name>
+        <value> http://edu.cyol.com/node_7669.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed21</name>
+        <value>http://edu.cyol.com/node_29144.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed22</name>
+        <value>http://edu.cyol.com/node_29163.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed23</name>
+        <value>http://edu.cyol.com/node_29146.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed24</name>
+        <value>http://edu.cyol.com/node_29162.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed25</name>
+        <value>http://edu.cyol.com/node_29164.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+    <property>
+        <name>zqedu.seeds.seed26</name>
+        <value>http://edu.cyol.com/node_29147.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed27</name>
+        <value>http://edu.cyol.com/node_7626.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed28</name>
+        <value>http://edu.cyol.com/node_2292.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.seeds.seed29</name>
+        <value>http://edu.cyol.com/node_7623.htm</value>
+        <description>zqedu 的种子url</description>
+    </property>
+
+    <property>
+        <name>zqedu.next.nextpage.selector</name>
+        <value>a.dqy</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>zqedu.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式,去除所有的图片</description>
+    </property>
+
+    <property>
+        <name>zqedu.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式，去除所有的带#的url</description>
+    </property>
+
+    <property>
+        <name>zqedu.crawler.reg.reg1</name>
+        <value>http://edu.cyol.com/content/.*/content_\d{7}.htm</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>zqedu.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>zqedu.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+</configuration>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>tjedu</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是tjedu</description>
+    </property>
+
+	<property>
+        <name>tjedu.sourceId</name>
+        <value>39</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是>tjedu</description>
+    </property>
+	
+    <property>
+        <name>tjedu.crawldb</name>
+        <value>Tjedu-crawler</value>
+        <description>Tjedu的主目录</description>
+    </property>
+    
+    <property>
+        <name>tjedu.publisher</name>
+        <value>天津教育网</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>tjedu.path.seeds</name>
+        <value>seeds/tjedu/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+    <property>
+        <name>tjedu.next.nextpage.selector</name>
+        <value>tr[valign=bottom][height=25] td a</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>tjedu.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>tjedu.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>tjedu.crawler.reg.reg1</name>
+        <value>http://www.tjmec.gov.cn/show.jsp?.*</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>tjedu.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>tjedu.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+
+</configuration>

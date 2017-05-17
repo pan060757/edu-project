@@ -1,0 +1,12 @@
+http://www.blog.edu.cn/search/searchc?catid=33
+http://www.blog.edu.cn/search/searchc?catid=31
+http://www.blog.edu.cn/search?sortid=24
+http://www.blog.edu.cn/search/searchc?catid=34
+http://www.blog.edu.cn/search/searchc?catid=35
+http://www.blog.edu.cn/search?sortid=12
+http://www.blog.edu.cn/search?sortid=13
+http://www.blog.edu.cn/search?sortid=19
+http://www.blog.edu.cn/search/searchc?catid=32
+http://www.blog.edu.cn/search/searchc?catid=37
+http://www.blog.edu.cn/search?sortid=17
+http://www.blog.edu.cn/search?sortid=18

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>hbedu</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是hbedu</description>
+    </property>
+
+	<property>
+        <name>hbedu.sourceId</name>
+        <value>15</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是>hbedu</description>
+    </property>
+	
+    <property>
+        <name>hbedu.crawldb</name>
+        <value>HbEdu-crawler</value>
+        <description>HbEdu的主目录</description>
+    </property>
+    
+    <property>
+        <name>hbedu.publisher</name>
+        <value>河北教育网</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>hbedu.path.seeds</name>
+        <value>seeds/hbedu/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+
+    <property>
+        <name>hbedu.next.nextpage.selector</name>
+        <value>ul.pagelist a</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>hbedu.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>hbedu.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式</description>
+    </property>
+
+    <property>
+        <name>hbedu.crawler.reg.reg1</name>
+        <value>http://www.hebjy.net/.*/\d{6}.html</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>hbedu.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>hbedu.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+
+</configuration>

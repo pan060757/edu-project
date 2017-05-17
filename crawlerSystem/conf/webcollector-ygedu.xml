@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+
+    <property>
+        <name>crawler.suffix</name>
+        <value>ygedu</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是ygedu</description>
+    </property>
+	
+	<property>
+        <name>ygedu.sourceId</name>
+        <value>3</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是>ygedu</description>
+    </property>
+
+    <property>
+        <name>ygedu.crawldb</name>
+        <value>Ygedu-crawler</value>
+        <description>主目录</description>
+    </property>
+
+    <property>
+        <name>ygedu.publisher</name>
+        <value>央广网</value>
+        <description>新闻发布平台</description>
+    </property>
+
+
+    <property>
+        <name>ygedu.path.seeds</name>
+        <value>seeds/ygedu/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+    <property>
+        <name>ygedu.next.nextpage.selector</name>
+        <value>td[style=padding-top:6px] a</value>
+        <description>"下一页"的内容</description>
+    </property>
+
+    <property>
+        <name>ygedu.next.nextpage.nextcontent</name>
+        <value>next</value>
+        <description>nextPagerCrawler的正则表达式，去除所有的带#的url</description>
+    </property>
+
+
+
+    <property>
+        <name>ygedu.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式，去除所有的带#的url</description>
+    </property>
+
+
+
+    <property>
+        <name>ygedu.crawler.reg.reg1</name>
+        <value>http://paper.chinateacher.com.cn/zgjsb/html/.*/content_\d{6}.*</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>ygedu.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+
+    <property>
+        <name>ygedu.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+</configuration>

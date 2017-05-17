@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property>
+        <name>crawler.suffix</name>
+        <value>people</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是people</description>
+    </property>
+
+	<property>
+        <name>people.sourceId</name>
+        <value>29</value>
+        <description>爬虫配置的前缀，比如在此处所有的配置第一项都是>people</description>
+    </property>
+	
+    <property>
+        <name>people.crawldb</name>
+        <value>People-crawler</value>
+        <description>主目录</description>
+    </property>
+
+    <property>
+        <name>people.publisher</name>
+        <value>人民网-教育频道</value>
+        <description>新闻发布平台</description>
+    </property>
+
+    <property>
+        <name>people.path.seeds</name>
+        <value>seeds/people/seed.txt</value>
+        <description>种子</description>
+    </property>
+
+
+    <property>
+        <name>people.next.nextpage.selector</name>
+        <value>div.fanye a</value>
+        <description>"下一页"的选择标签</description>
+    </property>
+
+    <property>
+        <name>people.next.reg.reg1</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>nextPagerCrawler的正则表达式,去除所有的图片</description>
+    </property>
+
+    <property>
+        <name>people.next.reg.reg2</name>
+        <value>-.*#.*</value>
+        <description>nextPagerCrawler的正则表达式，去除所有的带#的url</description>
+    </property>
+
+    <property>
+        <name>people.crawler.reg.reg1</name>
+        <value>http://edu.people.com.cn/n/\d{4}/.*.html</value>
+        <description>crawler的正则表达式,只匹配新闻页面</description>
+    </property>
+
+    <property>
+        <name>people.crawler.reg.reg2</name>
+        <value>-.*\.(jpg|png|gif).*</value>
+        <description>crawler的正则表达式,过滤掉图片的url</description>
+    </property>
+    <property>
+        <name>people.crawler.reg.reg3</name>
+        <value>-.*#.*</value>
+        <description>crawler的正则表达式,不要爬取包含"#"的链接</description>
+    </property>
+
+</configuration>
